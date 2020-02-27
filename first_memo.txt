@@ -6,3 +6,11 @@
 - git status
 - git rm
 - git status
+# 一行で表示する
+- git log --oneline
+# ファイルの差分を表示する
+- git log -p [file_name]
+# ステージとの差分
+- git diff
+# ステージとコミットの差分
+- git diff HEAD
